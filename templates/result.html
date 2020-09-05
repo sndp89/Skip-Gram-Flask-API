@@ -1,0 +1,11 @@
+{% extends "layout_result.html" %}
+{% block body %}
+
+<div class="well">
+    <h2>Top 50 contextual words surrounding the Focus word entered</h2>
+    <br>
+    <br>
+    <p>{{ result | safe}}</p>
+</div>
+
+{% endblock %}
